@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/lincuicui/go/go-78/bluebell'
+go fmt ./
+go vet ./
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o "bluebell"
+ 
+make: Leaving directory `/Users/lincuicui/go/go-78/bluebell'
+ 
