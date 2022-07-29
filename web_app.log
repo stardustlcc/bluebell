@@ -500,3 +500,5 @@
 {"level":"INFO","time":"2022-07-28T13:01:27.560+0800","caller":"bluebell/main.go:97","msg":"server exiting"}
 {"level":"INFO","time":"2022-07-28T14:42:59.747+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.024360125}
 {"level":"INFO","time":"2022-07-28T14:43:25.045+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.021499625}
+{"level":"INFO","time":"2022-07-29T15:40:02.495+0800","caller":"bluebell/main.go:97","msg":"server exiting"}
+{"level":"INFO","time":"2022-07-29T15:40:53.262+0800","caller":"bluebell/main.go:97","msg":"server exiting"}

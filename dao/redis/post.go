@@ -55,7 +55,7 @@ func GetPostVoteData(ids []string) (data []int64, err error) {
 }
 
 //按照社区查找id
-func GetCommunityPostIdsInSort(p *models.ParamCommunityPostList) ([]string, error) {
+func GetCommunityPostIdsInSort(p *models.ParamPostList) ([]string, error) {
 
 	sortKey := getRedisKey(KeyPostTimeZSet)
 	if p.Sort == models.SortScore {
